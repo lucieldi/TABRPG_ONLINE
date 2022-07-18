@@ -31,3 +31,12 @@ CREATE TABLE ClasseHabilida(
 	HabilidadeID INT FOREIGN KEY REFERENCES	Habilidades(HabilidadeID)
 )
 
+--DML
+INSERT INTO Usuarios VALUES ('caique@email.com', '1234')
+INSERT INTO Classes VALUES ('Barbaro', 'Ele é realmente Barbaro hahaha')
+INSERT INTO Habilidades VALUES ('Lança Mortal', 'Escudo Supremo' ,'Regeneração')
+
+--DQL
+SELECT * FROM Usuarios
+SELECT * FROM Classes
+SELECT * FROM Habilidades
